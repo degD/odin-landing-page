@@ -12,6 +12,11 @@ body {
     margin: 0;
 }
 
+/* Leave a margin for tags inside sections */
+.section-contents {
+    margin: 0 20%;
+}
+
 /* The hero section below */
 .hero-section {
     background-color: #1f2937;
