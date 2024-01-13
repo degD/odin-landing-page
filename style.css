@@ -32,3 +32,15 @@ body {
     font-size: 24px;
     color: #f9faf8;
 }
+
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-header ul {
+    display: flex;
+    gap: 12px;
+    padding: 0;
+}
