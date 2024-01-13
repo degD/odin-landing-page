@@ -7,6 +7,11 @@ a {
     color: inherit;
 }
 
+body {
+    height: 100vh;
+    margin: 0;
+}
+
 /* The hero section below */
 .hero-section {
     background-color: #1f2937;
