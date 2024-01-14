@@ -7,6 +7,14 @@ a {
     color: inherit;
 }
 
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
@@ -14,7 +22,7 @@ body {
 }
 
 /* Leave a margin for tags inside sections */
-.section-contents {
+.section-container {
     margin: 0 20%;
 }
 
@@ -39,14 +47,32 @@ body {
     color: #f9faf8;
 }
 
-.hero-header {
+.hero-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.hero-header ul {
+.hero-navbar ul {
     display: flex;
-    gap: 12px;
+    gap: 40px;
     padding: 0;
+}
+
+.hero-contents {
+    display: flex;
+    padding: 100px 0;
+}
+
+.hero-text-container {
+    margin-right: 60px;
+}
+
+.hero-section button {
+    background-color: #3882f6;
+    border: 5px solid #3882f6;
+    border-radius: 6px;
+    color: #f9faf8;
+    width: 90px;
+    margin-top: 10px;
 }
