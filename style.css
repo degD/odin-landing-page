@@ -76,3 +76,35 @@ body {
     width: 90px;
     margin-top: 10px;
 }
+
+/* Information section below */
+.information-section {
+    padding-bottom: 100px;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 700;
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.information-boxes-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+
+.info-box {
+    max-width: 150px;
+    text-align: center;
+}
+
+.info-box img {
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 6px;
+}
