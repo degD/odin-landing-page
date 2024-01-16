@@ -70,7 +70,8 @@ body {
 
 .hero-section button {
     background-color: #3882f6;
-    border: 5px solid #3882f6;
+    border: 2px solid #3882f6;
+    padding: 4px;
     border-radius: 6px;
     color: #f9faf8;
     width: 90px;
@@ -169,4 +170,9 @@ footer {
     color: #f9faf8;
     text-align: center;
     padding: 20px 0;
+}
+
+/* button hover effect */
+button:hover {
+    background-color: #315b9e;
 }
