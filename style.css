@@ -127,3 +127,14 @@ h2 {
     font-weight: 700;
     margin-right: 30px;
 }
+
+/* Footer */
+.footer-section {
+    background-color: #1f2937;
+}
+
+footer {
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px 0;
+}
